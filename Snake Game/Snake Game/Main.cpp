@@ -41,7 +41,7 @@ void Draw() {
 	for (int i = 0; i < 80; ++i) { cout << "#"; }
 	cout << "\n                          Snake                        Score : " << score << "\n";
 	for (int i = 0; i < 80; ++i) { cout << "#"; }
-
+	cout << "\n" ;
 	if (gameOver) {
 		cout << "\n\n\n\n\n\n\n\t\t\t\tGame Over\t\t\t\t\n\n\n\n\n\n\n";
 		return;
